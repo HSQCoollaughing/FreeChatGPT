@@ -28,5 +28,6 @@ jobs:
         with:
           github_token: ${{ secrets.HSQ }}
           publish_dir: ./dist
-          user_name: 'github-actions[bot]'
-          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          BRANCH: gh-pages
+          #user_name: 'github-actions[bot]'
+          #user_email: '41898282+github-actions[bot]@users.noreply.github.com'
