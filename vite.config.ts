@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 //
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'hsqcoollaughing.github.io/FreeChatGPT/',
+  base: 'https://hsqcoollaughing.github.io/FreeChatGPT/',
   plugins: [react()],
   resolve: {
     alias: {
