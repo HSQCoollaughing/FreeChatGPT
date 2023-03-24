@@ -16,7 +16,7 @@ const NewChat = () => {
     >
       <PlusIcon />{' '}
       <span className='hidden md:inline-flex text-white text-sm'>
-        {t('newChat')}
+        {t('newChat')}试试!
       </span>
     </a>
   );
