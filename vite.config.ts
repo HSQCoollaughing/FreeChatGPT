@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   base: './',
 //   base: 'https://hsqcoollaughing.github.io/FreeChatGPT/',
-  plugins: [react()],
+//   plugins: [react()],
+   plugins: [react(), wasm(), topLevelAwait()],
   resolve: {
     alias: {
       '@icon/': new URL('./src/assets/icons/', import.meta.url).pathname,
